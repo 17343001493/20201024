@@ -1,0 +1,2 @@
+[32mINFO    [0m root:loginApi.py:23 登录的data数据是{'accounts': 'yaoyao', 'pwd': '123456'}
+[32mINFO    [0m root:loginApi.py:25 登录的响应数据是<Response [200]>

@@ -1,0 +1,5 @@
+[32mINFO    [0m root:orderApi.py:9 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+[32mINFO    [0m root:loginApi.py:19 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+[32mINFO    [0m root:orderApi.py:22 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
+[32mINFO    [0m root:orderApi.py:24 提交订单的响应是<Response [200]>
+[32mINFO    [0m root:orderApi.py:27 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/4481.html
