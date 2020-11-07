@@ -1,3 +1,0 @@
-[32mINFO    [0m root:loginApi.py:18 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-[32mINFO    [0m root:loginApi.py:21 登录的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
-[32mINFO    [0m root:loginApi.py:23 登录的响应数据是<Response [200]>
