@@ -1,125 +1,100 @@
-2020-11-07 16:10:45,452 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:10:45,933 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': ''}
-2020-11-07 16:10:46,059 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:10:46,063 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': '', 'pwd': 'yaoyao'}
-2020-11-07 16:10:46,176 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:10:46,179 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'lwx', 'pwd': 'yaoyao'}
-2020-11-07 16:10:46,299 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:10:46,302 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': '123456'}
-2020-11-07 16:10:46,421 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:10:46,425 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:10:46,425 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
-2020-11-07 16:10:46,565 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:10:46,568 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
-2020-11-07 16:10:46,568 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:10:46,717 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
-2020-11-07 16:10:46,870 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
-2020-11-07 16:10:46,870 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5714.html
-2020-11-07 16:10:46,875 INFO [root] [payOrderApi.py (__init__:14] - 支付接口的url是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5714.html
-2020-11-07 16:10:46,875 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:10:47,012 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
-2020-11-07 16:10:47,012 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
-2020-11-07 16:10:47,175 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
-2020-11-07 16:10:47,176 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5715.html
-2020-11-07 16:10:47,328 INFO [root] [payOrderApi.py (pay_order:19] - 支付的302跳转接口的响应是<Response [302]>
-2020-11-07 16:10:47,329 INFO [root] [payOrderApi.py (pay_order:20] - 支付的302跳转接口的响应头的location是http://121.42.15.146:9090/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20201107161047120364&subject=è®¢åæ¯ä»&total_price=4200.00
-2020-11-07 16:14:27,989 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:14:28,151 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': ''}
-2020-11-07 16:14:28,385 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:14:28,388 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': '', 'pwd': 'yaoyao'}
-2020-11-07 16:14:28,507 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:14:28,510 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'lwx', 'pwd': 'yaoyao'}
-2020-11-07 16:14:28,658 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:14:28,661 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': '123456'}
-2020-11-07 16:14:28,778 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:14:28,781 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:14:28,781 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
-2020-11-07 16:14:28,933 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:14:28,936 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
-2020-11-07 16:14:28,936 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:14:29,082 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
-2020-11-07 16:14:29,240 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
-2020-11-07 16:14:29,241 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5716.html
-2020-11-07 16:14:29,245 INFO [root] [payOrderApi.py (__init__:14] - 支付接口的url是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5716.html
-2020-11-07 16:14:29,246 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:14:29,394 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
-2020-11-07 16:14:29,395 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
-2020-11-07 16:14:29,565 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
-2020-11-07 16:14:29,565 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5717.html
-2020-11-07 16:14:29,723 INFO [root] [payOrderApi.py (pay_order:19] - 支付的302跳转接口的响应是<Response [302]>
-2020-11-07 16:14:29,723 INFO [root] [payOrderApi.py (pay_order:20] - 支付的302跳转接口的响应头的location是http://121.42.15.146:9090/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20201107161429904166&subject=è®¢åæ¯ä»&total_price=4200.00
-2020-11-07 16:19:16,994 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:19:17,152 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': ''}
-2020-11-07 16:19:17,300 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:19:17,303 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': '', 'pwd': 'yaoyao'}
-2020-11-07 16:19:17,426 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:19:17,429 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'lwx', 'pwd': 'yaoyao'}
-2020-11-07 16:19:17,553 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:19:17,556 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': '123456'}
-2020-11-07 16:19:17,691 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:19:17,695 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:19:17,695 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
-2020-11-07 16:19:17,867 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:19:17,870 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
-2020-11-07 16:19:17,870 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:19:18,023 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
-2020-11-07 16:19:18,189 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
-2020-11-07 16:19:18,189 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5718.html
-2020-11-07 16:19:18,194 INFO [root] [payOrderApi.py (__init__:14] - 支付接口的url是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5718.html
-2020-11-07 16:19:18,194 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:19:18,339 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
-2020-11-07 16:19:18,339 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
-2020-11-07 16:19:18,489 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
-2020-11-07 16:19:18,490 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5719.html
-2020-11-07 16:19:18,652 INFO [root] [payOrderApi.py (pay_order:19] - 支付的302跳转接口的响应是<Response [302]>
-2020-11-07 16:19:18,652 INFO [root] [payOrderApi.py (pay_order:20] - 支付的302跳转接口的响应头的location是http://121.42.15.146:9090/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20201107161918908474&subject=è®¢åæ¯ä»&total_price=4200.00
-2020-11-07 16:20:22,066 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:20:22,208 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': ''}
-2020-11-07 16:20:22,322 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:20:22,325 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': '', 'pwd': 'yaoyao'}
-2020-11-07 16:20:22,436 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:20:22,439 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'lwx', 'pwd': 'yaoyao'}
-2020-11-07 16:20:22,567 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:20:22,571 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': '123456'}
-2020-11-07 16:20:22,686 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:20:22,690 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:20:22,691 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
-2020-11-07 16:20:22,825 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:20:22,828 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
-2020-11-07 16:20:22,828 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:20:22,966 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
-2020-11-07 16:20:23,132 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
-2020-11-07 16:20:23,132 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5720.html
-2020-11-07 16:20:23,137 INFO [root] [payOrderApi.py (__init__:14] - 支付接口的url是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5720.html
-2020-11-07 16:20:23,137 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:20:23,276 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
-2020-11-07 16:20:23,277 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
-2020-11-07 16:20:23,446 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
-2020-11-07 16:20:23,447 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5721.html
-2020-11-07 16:20:23,610 INFO [root] [payOrderApi.py (pay_order:19] - 支付的302跳转接口的响应是<Response [302]>
-2020-11-07 16:20:23,610 INFO [root] [payOrderApi.py (pay_order:20] - 支付的302跳转接口的响应头的location是http://121.42.15.146:9090/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20201107162023854414&subject=è®¢åæ¯ä»&total_price=4200.00
-2020-11-07 16:32:05,625 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:32:06,818 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': ''}
-2020-11-07 16:32:06,931 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:32:06,934 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': '', 'pwd': 'yaoyao'}
-2020-11-07 16:32:07,045 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:32:07,048 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'lwx', 'pwd': 'yaoyao'}
-2020-11-07 16:32:07,166 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:32:07,169 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': '123456'}
-2020-11-07 16:32:07,286 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:32:07,289 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:32:07,290 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
-2020-11-07 16:32:07,460 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
-2020-11-07 16:32:07,463 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
-2020-11-07 16:32:07,463 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:32:07,611 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
-2020-11-07 16:32:07,766 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
-2020-11-07 16:32:07,766 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5722.html
-2020-11-07 16:32:07,771 INFO [root] [payOrderApi.py (__init__:14] - 支付接口的url是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5722.html
-2020-11-07 16:32:07,771 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
-2020-11-07 16:32:07,924 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
-2020-11-07 16:32:07,924 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
-2020-11-07 16:32:08,087 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
-2020-11-07 16:32:08,087 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5723.html
-2020-11-07 16:32:08,251 INFO [root] [payOrderApi.py (pay_order:19] - 支付的302跳转接口的响应是<Response [302]>
-2020-11-07 16:32:08,251 INFO [root] [payOrderApi.py (pay_order:20] - 支付的302跳转接口的响应头的location是http://121.42.15.146:9090/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20201107163207888014&subject=è®¢åæ¯ä»&total_price=4200.00
+2020-11-15 17:18:17,213 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:18:17,370 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': ''}
+2020-11-15 17:18:17,483 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:18:17,486 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': '', 'pwd': 'yaoyao'}
+2020-11-15 17:18:17,602 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:18:17,605 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'lwx', 'pwd': 'yaoyao'}
+2020-11-15 17:18:17,727 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:18:17,730 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': '123456'}
+2020-11-15 17:18:17,852 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:18:17,856 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:18:17,857 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2020-11-15 17:18:18,007 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:18:18,010 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-15 17:18:18,011 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:18:18,164 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
+2020-11-15 17:18:18,332 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
+2020-11-15 17:18:18,332 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5912.html
+2020-11-15 17:18:18,338 INFO [root] [payOrderApi.py (__init__:14] - 支付接口的url是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5912.html
+2020-11-15 17:18:18,338 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:18:18,477 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-15 17:18:18,477 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
+2020-11-15 17:18:18,639 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
+2020-11-15 17:18:18,639 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5913.html
+2020-11-15 17:18:18,798 INFO [root] [payOrderApi.py (pay_order:19] - 支付的302跳转接口的响应是<Response [302]>
+2020-11-15 17:18:18,798 INFO [root] [payOrderApi.py (pay_order:20] - 支付的302跳转接口的响应头的location是http://121.42.15.146:9090/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20201115171818924036&subject=è®¢åæ¯ä»&total_price=4200.00
+2020-11-15 17:19:37,463 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:19:37,618 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': ''}
+2020-11-15 17:19:37,739 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:19:37,742 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': '', 'pwd': 'yaoyao'}
+2020-11-15 17:19:37,863 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:19:37,866 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'lwx', 'pwd': 'yaoyao'}
+2020-11-15 17:19:37,986 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:19:37,990 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': '123456'}
+2020-11-15 17:19:38,110 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:19:38,116 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:19:38,117 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2020-11-15 17:19:38,254 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:19:38,259 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-15 17:19:38,259 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:19:38,393 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
+2020-11-15 17:19:38,543 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
+2020-11-15 17:19:38,543 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5914.html
+2020-11-15 17:19:38,548 INFO [root] [payOrderApi.py (__init__:14] - 支付接口的url是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5914.html
+2020-11-15 17:19:38,549 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:19:38,694 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-15 17:19:38,694 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
+2020-11-15 17:19:38,854 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
+2020-11-15 17:19:38,855 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5915.html
+2020-11-15 17:19:39,015 INFO [root] [payOrderApi.py (pay_order:19] - 支付的302跳转接口的响应是<Response [302]>
+2020-11-15 17:19:39,015 INFO [root] [payOrderApi.py (pay_order:20] - 支付的302跳转接口的响应头的location是http://121.42.15.146:9090/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20201115171938056889&subject=è®¢åæ¯ä»&total_price=4200.00
+2020-11-15 17:21:07,582 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:21:07,759 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': ''}
+2020-11-15 17:21:07,878 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:21:07,881 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': '', 'pwd': 'yaoyao'}
+2020-11-15 17:21:08,002 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:21:08,005 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'lwx', 'pwd': 'yaoyao'}
+2020-11-15 17:21:08,126 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:21:08,130 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': '123456'}
+2020-11-15 17:21:08,256 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:21:08,260 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:21:08,260 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2020-11-15 17:21:08,412 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:21:08,415 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-15 17:21:08,415 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:21:08,554 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
+2020-11-15 17:21:08,713 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
+2020-11-15 17:21:08,713 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5916.html
+2020-11-15 17:21:08,718 INFO [root] [payOrderApi.py (__init__:14] - 支付接口的url是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5916.html
+2020-11-15 17:21:08,718 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:21:08,866 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-15 17:21:08,867 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
+2020-11-15 17:21:09,024 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
+2020-11-15 17:21:09,024 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5917.html
+2020-11-15 17:21:09,184 INFO [root] [payOrderApi.py (pay_order:19] - 支付的302跳转接口的响应是<Response [302]>
+2020-11-15 17:21:09,184 INFO [root] [payOrderApi.py (pay_order:20] - 支付的302跳转接口的响应头的location是http://121.42.15.146:9090/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20201115172108073501&subject=è®¢åæ¯ä»&total_price=4200.00
+2020-11-15 17:24:17,439 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:24:17,593 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': ''}
+2020-11-15 17:24:17,732 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:24:17,735 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': '', 'pwd': 'yaoyao'}
+2020-11-15 17:24:17,857 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:24:17,860 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'lwx', 'pwd': 'yaoyao'}
+2020-11-15 17:24:17,992 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:24:17,995 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': '123456'}
+2020-11-15 17:24:18,108 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:24:18,112 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:24:18,112 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2020-11-15 17:24:18,267 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2020-11-15 17:24:18,270 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-15 17:24:18,270 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:24:18,423 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
+2020-11-15 17:24:18,587 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
+2020-11-15 17:24:18,587 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5918.html
+2020-11-15 17:24:18,592 INFO [root] [payOrderApi.py (__init__:14] - 支付接口的url是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5918.html
+2020-11-15 17:24:18,592 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-15 17:24:18,736 INFO [root] [orderApi.py (__init__:10] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-15 17:24:18,736 INFO [root] [orderApi.py (order:22] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
+2020-11-15 17:24:18,897 INFO [root] [orderApi.py (order:24] - 提交订单的响应是<Response [200]>
+2020-11-15 17:24:18,897 INFO [root] [orderApi.py (order:28] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/5919.html
+2020-11-15 17:24:19,056 INFO [root] [payOrderApi.py (pay_order:19] - 支付的302跳转接口的响应是<Response [302]>
+2020-11-15 17:24:19,056 INFO [root] [payOrderApi.py (pay_order:20] - 支付的302跳转接口的响应头的location是http://121.42.15.146:9090/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20201115172418829830&subject=è®¢åæ¯ä»&total_price=4200.00
